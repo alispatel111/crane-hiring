@@ -1,0 +1,300 @@
+.about {
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+.about-header {
+  margin-bottom: 4rem;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1.5rem;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: #6b7280;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Stats Section */
+.stats-section {
+  margin-bottom: 5rem;
+}
+
+.stats-grid {
+  gap: 2rem;
+}
+
+.stat-card {
+  padding: 1.5rem;
+}
+
+.stat-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Mission Section */
+.mission-section {
+  margin-bottom: 5rem;
+}
+
+.mission-content {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  padding: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Modern hover effect */
+.mission-content:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 2rem;
+}
+
+.mission-text {
+  font-size: 1.1rem;
+  color: #374151;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.mission-text:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Values Section */
+.values-section {
+  margin-bottom: 5rem;
+}
+
+.values-grid {
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.value-card {
+  background: #f9fafb; /* light neutral background */
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.35s ease;
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.value-card:hover {
+  background: #c6d4ea;
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+}
+
+.value-card:hover .value-icon {
+  color: #2563eb;
+}
+
+.value-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.value-icon {
+  font-size: 2.5rem;
+}
+
+.value-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.value-description {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Why Choose Section */
+.why-choose-section {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  color: white;
+}
+
+.why-choose-section .section-title {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.choose-grid {
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.choose-item {
+  padding: 1rem;
+}
+
+.choose-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.choose-description {
+  color: #bfdbfe;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .choose-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 0;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .mission-content {
+    padding: 2rem;
+  }
+
+  .value-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .why-choose-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+  }
+
+  .choose-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .mission-content {
+    padding: 1.5rem;
+  }
+
+  .value-card {
+    padding: 1.5rem;
+  }
+
+  .why-choose-section {
+    padding: 2rem 1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat-card {
+    padding: 1.5rem;
+    text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .mission-content {
+    padding: 1rem;
+  }
+
+  .value-card {
+    padding: 1rem;
+  }
+
+  .why-choose-section {
+    padding: 1.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .stat-card {
+    padding: 1rem;
+    text-align: center;
+  }
+}
