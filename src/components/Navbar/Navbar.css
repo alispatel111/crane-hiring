@@ -265,4 +265,57 @@
   font-size: 16px;
 }
 
+/* Responsive Navbar */
+@media (max-width: 1024px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .navbar-content {
+    height: 70px;
+  }
+
+  .navbar-cta {
+    display: none;
+  }
+
+  .mobile-cta {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-content {
+    padding: 0 12px;
+  }
+
+  .brand-text {
+    font-size: 1.5rem;
+  }
+
+  .hamburger {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hamburger-line {
+    width: 22px;
+    height: 2.5px;
+  }
+
+  .mobile-nav-link {
+    font-size: 16px;
+  }
+
+  .mobile-cta {
+    font-size: 15px;
+    padding: 14px 20px;
+  }
+}
+
 
