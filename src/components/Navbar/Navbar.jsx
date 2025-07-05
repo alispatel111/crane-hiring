@@ -82,9 +82,9 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            {/* <Link to="/contact" className="btn btn-primary mobile-cta" onClick={() => setIsOpen(false)}>
+            <Link to="/contact" className="btn btn-primary mobile-cta" onClick={() => setIsOpen(false)}>
               Get Quote
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>
