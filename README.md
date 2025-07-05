@@ -2,7 +2,6 @@
 
 A modern, responsive website for crane rental services built with React. This professional platform showcases various crane services, company information, and provides an easy way for customers to get in touch.
 
-![Crane Hiring Website](https://sjc.microlink.io/IUKGFdc32zUkolHYG8tJFtSS3ntj0yqIT3QlJHZlke-prS5lzvWvsb2MXPRGFl5Z4Okk0nGmMKm-A6VW7otqnw.jpeg)
 
 ## ✨ Features
 
@@ -54,7 +53,7 @@ A modern, responsive website for crane rental services built with React. This pr
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/crane-hiring-website.git
+   git clone https://github.com/alispatel111/crane-hiring
    cd crane-hiring-website
    ```
 
@@ -211,8 +210,8 @@ npm run build
 Create a `.env` file in the root directory:
 ```
 REACT_APP_CONTACT_EMAIL=info@cranehiring.com
-REACT_APP_PHONE_NUMBER=+919876543210
-REACT_APP_WHATSAPP_NUMBER=+919876543210
+REACT_APP_PHONE_NUMBER=+918511231514
+REACT_APP_WHATSAPP_NUMBER=+918511231514
 ```
 
 ### Custom Domain
@@ -249,9 +248,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact Information
 
 **Crane Hiring Services**
-- **Phone:** +91 98765 43210
+- **Phone:** +91 8511231514
 - **Email:** info@cranehiring.com
-- **WhatsApp:** +91 98765 43210
+- **WhatsApp:** +91 8511231514
 - **Address:** 123 Industrial Area, Construction City, State 123456
 - **Website:** [www.cranehiring.com](https://www.cranehiring.com)
 
@@ -285,10 +284,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 *Professional crane rental services with modern web technology*
 
 ### 🔗 Quick Links
-- [Live Demo](https://your-demo-link.com)
-- [Documentation](https://your-docs-link.com)
-- [Support](mailto:support@cranehiring.com)
-- [Feature Requests](https://github.com/yourusername/crane-hiring-website/issues)
+- [Live Demo](https://crane-hiring.vercel.app/)
 
 **Version:** 1.0.0  
 **Last Updated:** January 2024  
