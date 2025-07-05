@@ -275,7 +275,7 @@
   }
 
   .navbar-cta {
-    display: none;
+    display: none !important; /* Ensures it's fully hidden on mobile */
   }
 
   .navbar-content {
@@ -295,6 +295,7 @@
     font-size: 1.5rem;
   }
 }
+
 
 @media (max-width: 480px) {
   .navbar-content {
