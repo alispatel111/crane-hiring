@@ -50,9 +50,9 @@ export default function Navbar() {
           </div>
 
           <div className="navbar-actions">
-{/*             <Link to="/contact" className="btn btn-primary navbar-cta">
+            <Link to="/contact" className="btn btn-primary ">
               Get Quote
-            </Link> */}
+            </Link>
 
             {/* Mobile menu button */}
             <div className="mobile-menu-btn">
